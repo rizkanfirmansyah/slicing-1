@@ -1,0 +1,214 @@
+body{
+    font-family: 'Rubik', sans-serif;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    margin:30px 100px;
+}
+
+nav .nav-header a{
+    text-decoration:none;
+    display:flex;
+    align-items:center;
+    font-weight:600;
+    color:#02044A;
+    font-size:22px;
+}
+
+nav .nav-header .logo{
+    width:45px;
+    padding-right:20px;
+}
+
+ul li {
+    color:#02044A;
+    float :left;
+    font-size:18px;
+    list-style:none;
+    margin:0px 20px;
+}
+
+ul li.active{
+    color:#563AD6;
+    font-weight:500;
+}
+
+#hero{
+    display: grid;
+    grid-template-columns: auto auto ;
+    margin:50px 100px;
+
+}
+
+#hero div.images{
+    margin-right:100px;
+    margin-left:100px;
+}
+
+#hero div.images img{
+    width:600px;
+    height:520px;
+}
+
+#hero .text{
+    padding:0px 50px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    /* align-items:center; */
+}
+
+#hero .text .title{
+    color:#02044A;
+    font-weight:600;
+    font-size:46px;
+}
+
+#hero .text .paragraph{
+    font-size:18px;
+    margin-top:-10px;
+    color:#9B9CB7;
+}
+
+#hero .text .buttons button{
+    margin-right:10px;
+}
+
+#hero .text .buttons{
+    margin-top:30px;
+}
+#brand{
+    margin-top:100px;
+}
+#brand img{
+    width:720px;
+    margin:auto;
+    display:block;
+}
+
+main{
+    padding:70px;
+    background:#F9F9FB;
+    margin-top:70px;
+    text-align:center;
+}
+
+main div.header h1.title{
+    color:#02044A;
+    font-size:46px;
+    font-weight:600;
+}
+
+main div.header p.paragraph{
+    color:#9B9CB7;
+    font-size:18px;
+    line-height: 30px;
+    /* padding:0px 100px; */
+}
+
+main div.body{
+    display :grid;
+    grid-template-columns:auto auto;
+    justify-content:center;
+    margin-top:50px;
+}
+
+main div.body div.card.basic{
+    background:white;
+    margin-right:50px;
+}
+
+main div.body div.card{
+    width:250px;
+    text-align:left;
+    padding:30px;
+    border-radius:20px;
+    height:max-content;
+}
+
+main div.body div.card .tag{
+    color:#02044A;
+    font-size:18px;
+    font-weight:500;
+    margin-bottom:-20px;
+}
+
+main div.body div.card .price{
+    color:#02044A;
+    font-size:36px;
+    font-weight:700;
+}
+
+main div.body div.card .desc{
+    color:#9B9CB7;
+    font-size:16px;
+    margin-bottom:50px;
+}
+
+main div.body div.card ul{
+    float:left;
+    padding:0px;
+}
+
+main div.body div.card ul li{
+    float:left;
+    color:#02044A;
+    font-size:16px;
+    font-weight:500;
+    margin-bottom:20px;
+    display:flex;
+}
+main div.body div.card ul li .icons{
+    margin-right:10px;
+}
+
+main div.body div.card button{
+    width:100%;
+    margin-top:20px;
+}
+
+main div.body div.card.feature{
+    background-color:#563AD6 !important;
+}
+
+main div.body div.card.feature .tag{
+    color:white !important;
+}
+
+main div.body div.card.feature .desc{
+    color:#B19FFF !important;
+}
+
+main div.body div.card.feature li{
+    color:white !important;
+}
+
+main div.body div.card.feature .price{
+    color:white !important;
+}
+
+button{
+    font-size:18px;
+    font-weight:600;
+    padding:13px 28px;
+    border-radius:10px;
+    border:none;
+    background:transparent;
+}
+
+button.primary{
+    background:#563AD6;
+    color:white;
+}
+
+button.secondary{
+    background:#EAEBF4;
+    color:#777790;
+}
+
+button.alternatif{
+    background:#3ABAD6;
+    color:white;
+}
